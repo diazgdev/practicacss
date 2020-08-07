@@ -30,8 +30,8 @@ a {
 
 
 p {
-    color: #40514E
-    ;
+    color: #40514E;
+    line-height: 2;
 }
 
 hr {
@@ -54,8 +54,13 @@ hr {
 
 }    
 
-.profile {
+.intro {
     width: 50%;
+    margin: auto;
+}
+
+.profile {
+    width: 40%;
     margin: 100px auto 100px auto;
 }
 
@@ -93,19 +98,14 @@ hr {
     margin: 100px auto 100px auto;
     padding-bottom: 50px;
     width: 50%;
-    text-align: left;
 }
 
 .code {
     width: 25%;
-    float: left;
-    margin-right: 30px;
 }
 
 .hobbies {
     width: 25%;
-    float: right;
-    margin-left: 30px;
 }
 
 .botoncito {
